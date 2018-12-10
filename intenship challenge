@@ -1,0 +1,119 @@
+#register.html#
+<!doctype html>
+<html>  
+  <body>
+  
+      <title>register</title>
+     
+      <form >
+           
+      <h1>Register</h1><br>
+      
+      E-mail:<br>
+             
+      <input type="email" name="E-mail" id="email"><br>
+  
+       Password:<br>
+              
+      <input type="password" name="password" id="pwd"><br>
+       
+      <button type="submit" class="btn btn-default">Submit</button><br>
+     
+        <p1>already register?</p1><div id="button"><a href="login.html">Log In</a></div>
+   
+          <div id="button"><a href="additional.html">additional page</a></div>
+     
+     </form>
+  
+  </body>
+ </html>
+ #login.html#
+<!doctype html>
+ <html>
+   
+ <body>
+     
+   <title>login</title>
+    
+    <form >
+         
+   <h1>login</h1><br>
+     
+       E-mail:<br>
+          
+      <input type="email" name="E-mail" id="email"><br>
+     
+       Password:<br>
+             
+   <input type="password" name="password" id="pwd"><br>
+        
+     <button type="submit" class="btn btn-default">Submit</button><br>
+     
+   </form>
+   
+ </body>
+ </html>
+ #additional.html#
+<!doctype html>
+ <html>
+   
+ <body>
+        
+<title>additional page</title>
+        
+<form>
+        
+<h3>details</h3>
+       
+ name:<br>
+       
+ <input type="text" name="name" id="name"><br>
+      
+  E-mail:<br>
+       
+ <input type="email" name="E-mail" id="email"><br>
+       
+ College name:<br>
+        
+<input type:"text" name="College name" id="college name"><br>
+      
+  Gender:<br>
+        
+<select name="Gender" id="Gender">
+          
+  <option>male</option>
+            
+<option>female</option>
+           
+ <option>other</option>
+       
+ </select><br>
+       
+ Degree:<br>
+      
+  <select name="Degree" id="Degree">
+          
+  <option>B.tech</option>
+          
+  <option>B.sc</option>
+         
+   <option>MCA</option>
+           
+ <option>M.tech</option>
+     
+   </select><br>
+       
+ Home town:<br>
+       
+ <input type:"text" name:"Home town" id:"home town"><br>
+    
+    Ph no:<br>
+      
+  <input type:"numeric" name="Ph no" id:"ph no"><br>
+ 
+<button type="submit" class="btn btn-default">Submit</button><br>
+                 
+  </form>
+   
+ </body>
+ </html>
